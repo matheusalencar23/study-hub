@@ -28,3 +28,17 @@ O código Java é compilado para bytecode e executado na máquina virtual JVM (*
 - Java ME - Java Micro Edition: é uma edição mais enxuta do java usada em dispositivos embarcasdos e móveis, podemos citar a IoT.
 - Java SE - Java Standard Edition: é a principal edição com java, é o core do Java, mais destinada para aplicações desktop e servidores mas também pode ser usada em aplicações web.
 - Java EE - Java Enterprise Edition: é uma conjunto de especificações Java para o desenvolvimento de aplicações corporativas (Servlet, JPA, Web Services, etc).
+
+## JVM - Java Virtual Machine
+
+A máquina virtual do Java é necessária para executar códigos Java.
+
+## Estrutura de uma aplicação Java
+
+O Java é uma linguagem orienteada a objetos, e a unidade lógica básica de uma liguagem orientada a objetos é uma classe, todo código Java esta dentro de classes.
+
+Temos também os pacotes (package), que é um agrupagemento lógico de classes relacionadas.
+
+No Java 9+ foi introduzido o conceito de módulos que é um agrupamento lógico de pacotes relacionados.
+
+Por fim, temos uma aplicação composta por um conjunto módulos relacionados.
