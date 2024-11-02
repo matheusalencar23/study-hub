@@ -56,3 +56,42 @@ public class Main {
 }
 ```
 No código acima, temos uma classe com o nome `Main` (o nome da classe pode ser outro, não é o obrigatório que o nome da classe seja esse), dentro da classe temos a declaração de um método `main`, esse método será o ponto de entrada da aplicação, o código dentro dele será executado ao iniciarmos a aplicação.
+
+## Variáveis e tipos primitivos
+
+Os dados de um programa em execução são armazanados em variáveis. As variáveis são uma porção da memória (RAM) utilizada para armazenar dados durante a execução dos programas.
+
+Para um programa usar um variável, ela precisa ser declarada. A sintaxe usada para declarar uma variável no Java é:
+
+```
+<tipo> <nome> = <valor inicial>;
+```
+
+Sendo que o valor inicial é opcional. Portanto, uma variável possui um nome, um tipo, um valor e um endereço na memória.
+
+### Tipos primitivos do Java
+
+Os tipos primitivos são os valores mais básicos que a linguagem Java pode manipular. São usados para armazenar valores simples, como números inteiros e caracteres. Entre os tipos primitivos do Java temos:
+
+- Tipos númericos inteiros
+	- byte: Tem 8 bits, com valores indo de -128 a 127 e valor padrão igual a 0
+	- short: Tem 16 bits, com valores indo de -32768 a 32767 e valor padrão igual a 0
+	- int: Tem 32 bits, com valores indo de -2147483648 a 2147483647 e valor padrão igual a 0
+	- long: Tem 64 bits, com valores indo de -9223372036854770000 a 9223372036854770000 e valor padrão igual a 0L
+- Tipos númericos com ponto flutuante
+	- float: Tem 32 bits, com valores indo de -1,4024E-37 a 1,4028E+38 e valor padrão igual a 0.0F
+	- double: Tem 64 bits, com valores indo de -4,94E-307 a 1,79E+308 e valor padrão igual a 0.0
+- Caracter
+	- char: Tem 16 bits e armazena caracteres unicode, com valores indo de `\u0000` a `\uFFFF` e valor padrão igual a `\u0000`
+- Booleano
+	- boolean: Tem 1 bit, com valor podendo ser `true` ou `false`, e valor padrão sendo `false`
+
+Além dos tipos primitivos também é importante falar sobre o tipo String, que é usado para armazenar cadeias de caracteres, ou seja, palavras ou textos.
+
+### Nomes de veriáveis
+
+Os nomes dados a variáveis seguem algumas regras:
+- Não podem começar com dígitos, somente letras ou _
+- Não podem conter espaço em branco
+- Não podem conter acentos ou til
+- Geralmente, o padrão seguido no Java é o camel case
