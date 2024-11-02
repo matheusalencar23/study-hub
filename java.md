@@ -42,3 +42,17 @@ Temos também os pacotes (package), que é um agrupagemento lógico de classes r
 No Java 9+ foi introduzido o conceito de módulos que é um agrupamento lógico de pacotes relacionados.
 
 Por fim, temos uma aplicação composta por um conjunto módulos relacionados.
+
+## Iniciando uma aplicação Java
+
+Como dito antes, todo código java deve estar dentro de uma classe, e para iniciar uma aplicação Java é necessário que haja um método **main** dentro de uma classe, a seguir temos um exemplo:
+
+```java
+// Main.java
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+```
+No código acima, temos uma classe com o nome `Main` (o nome da classe pode ser outro, não é o obrigatório que o nome da classe seja esse), dentro da classe temos a declaração de um método `main`, esse método será o ponto de entrada da aplicação, o código dentro dele será executado ao iniciarmos a aplicação.
