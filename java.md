@@ -199,3 +199,9 @@ switch(<expressao>) {
 		break;
 }
 ```
+
+### Expressão condicional ternária
+
+É uma alternativa mais simples e enxuta ao condicional `if-else`. Muito usado para atribuir um valor a uma variável com base em uma determinada condição.
+
+`<condicao> ? <valor_se_condicao_for_verdadeira> : <valor_se_condicao_for_falsa>`
