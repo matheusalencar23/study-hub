@@ -50,9 +50,9 @@ Como dito antes, todo código java deve estar dentro de uma classe, e para inici
 ```java
 // Main.java
 public class Main {
- public static void main(String[] args) {
-  System.out.println("Hello World!");
- }
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
 }
 ```
 
@@ -96,6 +96,16 @@ Os nomes dados a variáveis seguem algumas regras:
 - Não podem conter acentos ou til
 - Geralmente, o padrão seguido no Java é o camel case
 
+## Operadores de atribuição cumulativa
+
+São uma combinação entre os operadores matemáticos simples com o operador de atribuição:
+
+- `x += y` é equivalente a  `x = x + y`
+- `x -= y` é equivalente a  `x = x - y`
+- `x *= y` é equivalente a  `x = x * y`
+- `x /= y` é equivalente a  `x = x / y`
+- `x %= y` é equivalente a  `x = x % y`
+
 ## Operadores comparativos
 
 São operadores usados para comparar um valor com outro, retornando um valor verdade, ou seja, `true` ou `false`. No Java temos os seguintes operadores de comparação:
@@ -107,7 +117,7 @@ São operadores usados para comparar um valor com outro, retornando um valor ver
 - igual (`==`)
 - diferente (`!=`)
 
-## Operadores lógicas
+## Operadores lógicos
 
 São operadores que auxiliam na avalição de expressões resultando em um valor verdade (`true` ou `false`). Dentre os operadores lógicos temos:
 
@@ -117,54 +127,75 @@ São operadores que auxiliam na avalição de expressões resultando em um valor
 
 ## Estruturas condicionais
 
-É uma estrutura de controle que define que um certo bloco de código só será executando dependendo de uma determinada condição.
+São estruturas de controle que definem se um certo bloco de código será executando dependendo de uma determinada condição.
 
 ### Estrurura condicional `if-else`
 
 ```java
 // Estrutura simples
 if(<condicao>) {
-  <comando_1>;
-  <comando_2>;
+	<comando_1>;
+	<comando_2>;
 }
 ```
 
 ```java
 // Estrutura composta
 if(<condicao>) {
-  <comando_1>;
-  <comando_2>;
+	<comando_1>;
+	<comando_2>;
 } else {
-  <comando_3>;
-  <comando_4>;
+	<comando_3>;
+	<comando_4>;
 }
 ```
 
 ```java
 // Estrutura composta encadeada
 if(<condicao_1>) {
-  <comando_1>;
-  <comando_2>;
+	<comando_1>;
+	<comando_2>;
 } else {
-  if(<condicao_2>) {
-    <comando_3>;
-    <comando_4>;
-  } else {
-    <comando_5>;
-    <comando_6>;
-  }
+	if(<condicao_2>) {
+		<comando_3>;
+		<comando_4>;
+	} else {
+		<comando_5>;
+		<comando_6>;
+	}
 }
 // ou
 if(<condicao_1>) {
-  <comando_1>;
-  <comando_2>;
+	<comando_1>;
+	<comando_2>;
 } else if (<condicao_2>) {
-  <comando_3>;
-  <comando_4>;
+	<comando_3>;
+	<comando_4>;
 } else {
-  <comando_5>;
-  <comando_6>;
+	<comando_5>;
+	<comando_6>;
 }
 ```
 
 **OBS**: Se hover só uma instrução dentro do bloco de código, tanto do `if` quanto do `else`, o par de chaves de definem o bloco de código a ser executado é opcional.
+
+### Estrurura condicional `switch-case`
+
+Um switch case é uma estrutura de controle que permite executar diferentes blocos de código com base no valor de uma variável. Esta é uma maneira consistente e eficiente de lidar com diversos valores. É uma opção ao uso de estrutura `if-else` encadeadas.
+
+```java
+switch(<expressao>) {
+	case <valor_1>:
+		<comando_1>;
+		break;
+	case <valor_2>:
+		<comando_2>;
+		break;
+	case <valor_3>:
+		<comando_3>;
+		break;
+	default:
+		<comando_4>;
+		break;
+}
+```
