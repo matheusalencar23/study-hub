@@ -119,4 +119,52 @@ São operadores que auxiliam na avalição de expressões resultando em um valor
 
 É uma estrutura de controle que define que um certo bloco de código só será executando dependendo de uma determinada condição.
 
-![Modelo de uma estrutura condicional simples](https://github.com/matheusalencar23/study-hub/blob/master/assets/condicional_if.jpg)
+### Estrurura condicional `if-else`
+
+```java
+// Estrutura simples
+if(<condicao>) {
+  <comando_1>;
+  <comando_2>;
+}
+```
+
+```java
+// Estrutura composta
+if(<condicao>) {
+  <comando_1>;
+  <comando_2>;
+} else {
+  <comando_3>;
+  <comando_4>;
+}
+```
+
+```java
+// Estrutura composta encadeada
+if(<condicao_1>) {
+  <comando_1>;
+  <comando_2>;
+} else {
+  if(<condicao_2>) {
+    <comando_3>;
+    <comando_4>;
+  } else {
+    <comando_5>;
+    <comando_6>;
+  }
+}
+// ou
+if(<condicao_1>) {
+  <comando_1>;
+  <comando_2>;
+} else if (<condicao_2>) {
+  <comando_3>;
+  <comando_4>;
+} else {
+  <comando_5>;
+  <comando_6>;
+}
+```
+
+**OBS**: Se hover só uma instrução dentro do bloco de código, tanto do `if` quanto do `else`, o par de chaves de definem o bloco de código a ser executado é opcional.
