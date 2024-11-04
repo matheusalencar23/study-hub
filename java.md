@@ -95,3 +95,28 @@ Os nomes dados a variáveis seguem algumas regras:
 - Não podem conter espaço em branco
 - Não podem conter acentos ou til
 - Geralmente, o padrão seguido no Java é o camel case
+
+## Operadores comparativos
+
+São operadores usados para comparar um valor com outro, retornando um valor verdade, ou seja, `true` ou `false`. No Java temos os seguintes operadores de comparação:
+
+- maior que (`>`)
+- menor que (`<`)
+- maior ou igual que (`>=`)
+- menor ou igual que (`<=`)
+- igual (`==`)
+- diferente (`!=`)
+
+## Operadores lógicas
+
+São operadores que auxiliam na avalição de expressões resultando em um valor verdade (`true` ou `false`). Dentre os operadores lógicos temos:
+
+- E (`&&`)
+- OU - (`||`)
+- NÂO - (`!`)
+
+## Estruturas condicionais
+
+É uma estrutura de controle que define que um certo bloco de código só será executando dependendo de uma determinada condição.
+
+![Modelo de uma estrutura condicional simples](https://github.com/matheusalencar23/study-hub/blob/master/assets/condicional_if.jpg)
