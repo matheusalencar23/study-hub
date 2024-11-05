@@ -96,6 +96,10 @@ Os nomes dados a variáveis seguem algumas regras:
 - Não podem conter acentos ou til
 - Geralmente, o padrão seguido no Java é o camel case
 
+### Escopo e inicialização de variáveis
+
+O escopo de uma variável é a região ou bloco de código onde uma determinada variável pode ser usada. No Java uma variável não pode ser usada se ela não foi iniciada anteriormente. Problemas desse tipo não permitem nem a compilação do código pois já geram um erro.
+
 ## Operadores de atribuição cumulativa
 
 São uma combinação entre os operadores matemáticos simples com o operador de atribuição:
