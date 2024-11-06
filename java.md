@@ -209,3 +209,44 @@ switch(<expressao>) {
 É uma alternativa mais simples e enxuta ao condicional `if-else`. Muito usado para atribuir um valor a uma variável com base em uma determinada condição.
 
 `<condicao> ? <valor_se_condicao_for_verdadeira> : <valor_se_condicao_for_falsa>`
+
+## Estruturas de repetição
+
+Estruturas de repetição permitem a execução repetida de um bloco de código, até que uma condição específica seja satisfeita.
+
+### Estrutura de repetição `while`
+
+```java
+while(<condicao>) {
+	<comando_1>;
+	<comando_2>;
+}
+```
+
+**OBS**: A estrutura `while` é mais adequada quando não se sabe a quantidade de vezes que o bloco de código deve ser executado.
+
+### Estrutura de repetição `do-while`
+
+```java
+do {
+	<comando_1>;
+	<comando_2>;
+} while(<condicao>);
+```
+
+**OBS**: A estrutura `do-while` é semelhante ao `while`, porém o bloco de código é realizado pelo menos uma vez, pois a condição para executar a repetição só é verificado após a execução do bloco de código.
+
+### Estrutura de repetição `for`
+
+```java
+for(<inicio>; <condicao>; <incremento>) {
+	<comando_1>;
+	<comando_2>;
+}
+```
+
+- Início: Executado somente na primeiro vez (ex: `int i = 0`)
+- Condição: Condição de parada da repetição (ex: `i < 10`)
+- Incremento: Executa sempre o fim de uma repetição (ex: `i += 1` ou `i++`)
+
+**OBS**: A estrutura `for` é mais adequada quando se sabe a quantidade de repetições ou o intervalo de valores.
