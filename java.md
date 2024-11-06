@@ -250,3 +250,11 @@ for(<inicio>; <condicao>; <incremento>) {
 - Incremento: Executa sempre o fim de uma repetição (ex: `i += 1` ou `i++`)
 
 **OBS**: A estrutura `for` é mais adequada quando se sabe a quantidade de repetições ou o intervalo de valores.
+
+## Operadores bitwise
+
+São operadores que realizam operações bit a bit
+
+- `&` : Operador "E"
+- `|` : Operador "OU"
+- `^` : Operador "OU EXCLUSIVO"
