@@ -279,3 +279,13 @@ Alguns dos comportamentos interessantes da String são:
 - `indexOf()`, `lastIndexOf()` : Busca a posição ou última posição de um caractere ou substring da String original
 - `split(<separador>)` : Separa a String com base em um separador
 
+## Funções
+
+Também conhecidas como métodos, principalmente no universo da orientação a objetos, são blocos de código que realizam uma tarefa específica e podem ser chamados repetidamente.
+
+As principais vantagens de se usar funções são a modularização, a delegação e o reaproveitamento.
+
+Podem ou não receber dados de entradas e podem ou não retornar uma saída.
+
+### Sintaxe
+
