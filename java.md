@@ -258,3 +258,24 @@ São operadores que realizam operações bit a bit
 - `&` : Operador "E"
 - `|` : Operador "OU"
 - `^` : Operador "OU EXCLUSIVO"
+
+Esse tipo de operador é mais usado para programação de baixo nível, como microcontroladores, programação de interface com rede, arduino e etc.
+
+## String
+
+Uma String armazena um sequência de caracteres. A String possui diversas características e comportamentos.
+
+```java
+String texto = "Qualquer texto entre aspas é uma String";
+```
+
+Alguns dos comportamentos interessantes da String são:
+
+- `toLowerCase()` : Converte para minúsculo
+- `toUpperCase()` : Converte para maiúsculo 
+- `trim()` : Remove espaços em branco no início e fim da String
+- `substring(<inicio>)`, `substring(<inicio>, <fim>)` : Captura um pedaço da String, uma substring
+- `replace(<char>, <char>)`, `replace(<string>, <string>)` : Substitui caracteres ou substring na String original
+- `indexOf()`, `lastIndexOf()` : Busca a posição ou última posição de um caractere ou substring da String original
+- `split(<separador>)` : Separa a String com base em um separador
+
