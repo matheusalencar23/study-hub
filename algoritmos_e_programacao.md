@@ -30,11 +30,33 @@ Esses dispositivos se comunicam com o computador através de conectores como por
 
 Por padrão, o dispositivo de entrada de um computador é o teclado e o dispositivo de saída é um monitor, portanto, se não for expecíficado, os programas tentarão ler do teclado e escrever no monitor.
 
+## Algoritmos
+
+Um algoritmo pode ser definido por uma sequência finita de instruções para resolver um problema. Ele estabelece um padrão de comportamento a ser seguido para alcançar a resolução de um problema.
+
+Os algoritmos são capazes de ler dados, avaliar expressões algébricas, relacionais e lógicas, tomar decisões com base nos resultados das expressões avaliadas e repetir um conjunto de ações com base em uma determinada condição.
+
+```
+1: ir até a parada
+2: enquanto ônibus não chega faça
+3:     esperar ônibus
+4: fim-enquanto
+5: subir no ônibus
+6: pegar passagem
+7: se não há passagem então
+8:     pegar dinheiro
+9: fim-se
+10: pagar o cobrador
+11: troco <- dinheiro - passagem
+12: enquanto banco não está vazio faça
+13:     ir para o próximo
+14: fim-enquanto
+15: sentar
+16: ...
+```
 
 
-
-
-<!-- ## Algoritmos
+<!-- 
   
 Algoritmos são uma sequência de instruções usadas para resolver um problema.
 
