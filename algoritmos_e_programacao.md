@@ -1,8 +1,40 @@
-# Conceitos de programação
+# Algoritmos e programação
 
-Aqui vamos discutir alguns conceitos interessantes sobre programação, são assuntos inicias no universo da programação
+Aqui vamos discutir alguns conceitos interessantes sobre programação e algoritmos
 
-## Algoritmos
+## Computador
+
+Um computador é uma máquina que manipula dados a partir de instruções. Eles podem ser analógicos ou digitais.
+
+Um computador moderno pode ser caracterizado por três componentes distintos, a unidade central de processamento, a memória e os dispositivos de entrada e saída.
+
+### Unidade central de processamento
+
+A UCP ou CPU, do inglês **C**entral **P**rocessing **U**nit, é um conjunto de dispositivos eletrônicos responsável por operações lógicas e matemáticas. Ela é reponsável por buscar instruções na memória, interpretar essas instruções, executar operações representadas por essas instruções e por fim, gravar eventuais resultados desse processo.
+
+### Memória
+
+São dispositivos reponsáveis por armazenar dados. No geral, uma memória pode ser classificada de acordo com suas capacidade de leitura, escrita e volatilidade.
+
+Tipos de memória:
+
+- RAM (**R**andom **A**ccess **M**emory): a memória de acesso rápido é usada para leitura e escrita mas tem seu conteúdo perdido quando o computador é desligado. É mais usada para aplicativos e sistemas operacionais.
+- ROM (**R**ead **O**nly **M**emory): a memória somente-leitura, é usada somente para leitura, após ter seu conteúdo gravado ele não pode ser alterado. Não se perde após o desligamento do computador.
+- Secundária: são dispositivos usados para armezanar grandes quantidades de dados em caratér não volátil, ou seja, não se perde ao desligar o computador. No geral, são mais lentas que a RAM. Como exemplo tempos os discos rígidos.
+
+### Dispositivos de entrada e saída
+
+Os dispositivos de entrada e saída são a forma como o computador recebe ou devolve informação. Alguns dispositivos de entrada são o teclado, mouse, câmera e digitalizador. Já entre os dispositivos de saída temos monitor (que também pode ser usado como dispositivo de entrada, no caso dos monitores touchscreen), impressora e saída de som.
+
+Esses dispositivos se comunicam com o computador através de conectores como porta paralela, porta serial, porta USB, porta SCSI, porta Firewire, porta PS/2, dentre outras. Além de um conector específico, essas portas compreendem um protocolo de comunicação entre o dispositivo e o computador.
+
+Por padrão, o dispositivo de entrada de um computador é o teclado e o dispositivo de saída é um monitor, portanto, se não for expecíficado, os programas tentarão ler do teclado e escrever no monitor.
+
+
+
+
+
+<!-- ## Algoritmos
   
 Algoritmos são uma sequência de instruções usadas para resolver um problema.
 
@@ -78,4 +110,4 @@ Uma maior facilidade de manutenção no código, pois não é necessário realiz
 
 Geralmente são linguagens mais expressivas, exigindo menos cógido para desenvolver algo funcional e elegante.
 
-Não é necessário recompilar o código para cada plataforma, basta usar um interpretador que seja capaz de interpretas aquele código, independente do sistema operacional, seja ele Linux ou Windows.
+Não é necessário recompilar o código para cada plataforma, basta usar um interpretador que seja capaz de interpretas aquele código, independente do sistema operacional, seja ele Linux ou Windows. -->
