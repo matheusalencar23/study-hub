@@ -36,24 +36,9 @@ Um algoritmo pode ser definido por uma sequência finita de instruções para re
 
 Os algoritmos são capazes de ler dados, avaliar expressões algébricas, relacionais e lógicas, tomar decisões com base nos resultados das expressões avaliadas e repetir um conjunto de ações com base em uma determinada condição.
 
-```
-1: ir até a parada
-2: enquanto ônibus não chega faça
-3:     esperar ônibus
-4: fim-enquanto
-5: subir no ônibus
-6: pegar passagem
-7: se não há passagem então
-8:     pegar dinheiro
-9: fim-se
-10: pagar o cobrador
-11: troco <- dinheiro - passagem
-12: enquanto banco não está vazio faça
-13:     ir para o próximo
-14: fim-enquanto
-15: sentar
-16: ...
-```
+Abaixo temos um exemplo simples de algoritmo com tomadas de decisão e repetições de ações com base em determinadas condições:
+
+![Algoritmo 1](/assets/algoritmos_e_programacao/algoritmo_1.jpeg)
 
 
 <!-- 
