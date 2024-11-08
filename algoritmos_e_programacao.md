@@ -40,27 +40,29 @@ Abaixo temos um exemplo simples de algoritmo com tomadas de decisão e repetiç�
 
 ![Algoritmo 1](/assets/algoritmos_e_programacao/algoritmo_1.jpeg)
 
+### Partes de um algoritmo
+
+Um algoritmo é formado por três partes: entrada, processamento e saída de dados.
+
+Na entrada de dados informações são fornecidas para execução do algortimo, essas informações pode ser fornecidas quando o programa já está sendo executado ou podem já estar embutidas nele.
+
+No processamento as expressões são avaliadas as expressões algébricas, relacionais e lógicas, além das estruturas de controle, sejam elas de condição ou repetição.
+
+Na saída, uma parte ou todos os resultados do processamento são enviados para algum dos dispositivos de saída, ou podem ser enviados para a memória.
+
+## Linguagem
+
+Para que informações sejam transferidas, processadas ou armazenadas é necessário que elas estajam em formas de linguagem. Existem diferentes tipos de linguagens, que nem sempre podem ser traduzidas diretamente entre si, pois são representadas de modos diferentes e se referem a coisas distintas.
+
+Para que um ser humano possa programar, armazenar e buscar informações em um computador, é necessário que saiba instruí-lo em usa linguagem de máquina ou em uma linguagem intermediária, que possa ser facilmente traduzida para a linguagem do computador. Essa linguagem intermediária seria a linguagem de programação.
+
+### Linguagem natural
+
+A linguagem natural é a forma como nos expressamos e trocamos informação, podendo ser a linguagem falada, gestos e posturas, que não podem ser diretamente compreendidas pelas máquinas. As máquinas são projetadas para executar ações bem determinadas, só sendo capaz de realizar as tarefas que lhe foram delegadas, assim, é necessário entender os tipos de instruções que podem ser executadas por um computador para que seja possível programá-los.
+
+### Linguagem de máquina
 
 <!-- 
-  
-Algoritmos são uma sequência de instruções usadas para resolver um problema.
-
-## Automação
-  
-Automação é a realização de algoritmos feito por máquinas, sejam esses dispositivos mecânicos ou eletrônicos.
-
-## Hardware
-
-É a parte física do computador
-
-## Software
-
-É a parte lógica do computador, são os programas, sistemas operacionais, aplicativos, jogos, dentre outros.
-
-## Programa e Algoritmo
-
-De maneira geral e simples, programas são algoritmos executados pelo computador. O computador automatiza a execução dos algoritmos, como processamento de dados, cálculos.
-
 ## O que é preciso para construir um programa de computador?
 
 ### 1. Uma liguagem de programação
