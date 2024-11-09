@@ -62,6 +62,23 @@ A linguagem natural é a forma como nos expressamos e trocamos informação, pod
 
 ### Linguagem de máquina
 
+As instruções que são passadas para o computador devem estar em uma linguagem específica, conhecida como linguagem de máquina. Ela é composta somente por números binários. A linguagem de máquina é muito difícil de ser compreendida por humanos, assim, existe uma linguagem de montagem, conhecida como assembly, que é representada por comandos que reproduzem as tarefas a serem executadas pelo computador, porém a linguagem de montagem também é difícil de programar e os programas feitos para um determinado processador, por conterem instruções específicas deste, não funcionarão em um processador de outro tipo.
+
+### Linguagens de programação
+
+As linguagens de programação foram criadas para facilitar a tarefa de programar. Elas são uma maneira de tornar a escrita de tarefas a serem realizadas pelo computador mais parecidas com a linguagem natural. Podemos dizer que elas são um meio termo entre a linguagem natural e a linguagem de máquina. Mesmo sendo um pouco complexa as vezes, elas facilitam muito o proceso de implementação, compreensão e modificação.
+
+As linguagens de programação podem ser classificadas de acordo com o seu nível entre linguagem natural e linguagem de máquina. As linguagens de baixo nível são mais parecidas com a linguagem de máquinas, por outro lado, as linguagens de alto nível são mais parecidas com a linguagem natural.
+A linguagem de montagem, assembly, é um exemplo de linguagem de baixo nível. Como exemplo de linguagens de alto nível temos Pascal, C, Java, Python, PHP, entre outras.
+
+Já que os processadores não entendem as linguagens de programção, elas precisam ser convertidas em linguagem de máquina, esse processo é conhecido como compilação.
+
+Um programa escrito em linguagem de máquina contém instruções específicas para um processador, portanto só poderá ser usado em processadores daquele tipo. Já as linguagens de programação possuem instruções abstratas, que podem ser compiladas para diferentes processadores sem necessidade de alterar o código, e sim só usando um compilador específico.
+
+### Pseudocódigo
+
+
+
 <!-- 
 ## O que é preciso para construir um programa de computador?
 
