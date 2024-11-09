@@ -77,7 +77,38 @@ Um programa escrito em linguagem de máquina contém instruções específicas p
 
 ### Pseudocódigo
 
+Pseudocódigo é uma forma intermediária entre a linguagem natual e a linguagem de programação muito útil para fins de estudo. Ela é menos rígida sintáticamente, contendo somente algumas palavras-chave e, em geral, é usada na linguagem nativa do programador. É muito usada para iniciantes e ajuda a se familiarizar com a lógica de programação, e a medida que o programador evolui começa a migrar para uma linguagem de programação.
 
+![Pseudocódigo 1](/assets/algoritmos_e_programacao/pseudo_codigo_1.jpeg)
+
+## Dados
+
+Para armazenar e manipular dados em um computador é necessários representá-los de alguma forma. Nós humanos usamos o sistema decimal, já os computadores usam o sistema binário, representados por 0/1, ligado/desligado ou verdadeiro/falso.
+
+Devido a grande quantidade de algarismos necessários para representar um número no sistem binário, os computadores também podem usar outras formas de representar os números, como o sistema octal, que usa 8 dígitos (0 1 2 3 4 5 6 7), e o hexadecimal, que usa 16 dígitos (0 1 2 3 4 5 6 7 8 9 A B C D E F).
+
+| Decimal  | Binário | Octal | Hexadecimal |
+| -------- | ------- | ----- | ----------- |
+| 0        | 0000    | 0     | 0           |
+| 1        | 0001    | 1     | 1           |
+| 2        | 0010    | 2     | 2           |
+| 3        | 0011    | 3     | 3           |
+| 4        | 0100    | 4     | 4           |
+| 5        | 0101    | 5     | 5           |
+| 6        | 0110    | 6     | 6           |
+| 7        | 0111    | 7     | 7           |
+| 8        | 1000    | 10    | 8           |
+| 9        | 1001    | 11    | 9           |
+| 10       | 1010    | 12    | A           |
+| 11       | 1011    | 13    | B           |
+| 12       | 1100    | 14    | C           |
+| 13       | 1101    | 15    | D           |
+| 14       | 1110    | 16    | E           |
+| 15       | 1111    | 17    | F           |
+
+Um único algarismo binário é chamado de bit, uma sequência de 8 bits é chamado de byte e uma sequência de 16 bits é uma palavra.
+
+### Tipos primitivos
 
 <!-- 
 ## O que é preciso para construir um programa de computador?
