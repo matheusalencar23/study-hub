@@ -6,4 +6,4 @@ Com ele é possível acessar um histórico de alterações, visualizar a diferen
 
 ## Github
 
-O Github é um serviço online de hospedagem de projetos gerenciados pelo git. Também existem serviços semelhantes como BitBucket e o GitLab.
+O Github é um serviço online de hospedagem de projetos gerenciados pelo git. Outros exemplos de serviços semelhantes ao Github são o BitBucket e o GitLab.
