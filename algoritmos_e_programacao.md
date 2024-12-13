@@ -110,6 +110,19 @@ Um único algarismo binário é chamado de bit, uma sequência de 8 bits é cham
 
 ### Tipos primitivos
 
+Os dados que são armazenados devem ter um tipo definido, isso é definido com base no tipo de informação que se deseja representar e nas operações que serão realizadas com o ele. Isso permite uma otimização dos recursos computacionais e uma aceleração no processamento.
+
+Alguns dos tipos de dados mais comuns são:
+
+- **Inteiro**: números pertencentes ao conjunto dos inteiros, tanto positivos, nulos ou negativos.
+- **Real**: números pertencentes ao conjunto dos reais. Também são conhecidos como ponto flutuante, devido a maneira como o computador o armazena.
+- **Caractere**: são valores que percencem ao conjunto de caracteres numéricos (0...9), alfabéticos (a...zA...Z) e especiais (! @ # $ % - & *). Esse conjunto é conhecido como conjunto de caracteres alfanuméricos. Esses caracteres são armazenados pelo computador na forma numérica binária usando o padrão definido pela tabela ASCII. No caso dos caracteres, também existem as cadeias de caracteres, que podem formar uma frase.
+- **Lógico**: é usado para informações que só podem possuir dois valores, o valor verdadeiro e o valor falso. Também são entendidos como ligado/desligado, 1/0, alto/baixo, fechado/aberto, etc.
+
+### Constantes e variáveis
+
+Os dados podem ser de duas classes diferentes, contantes e variáveis. Os dados contantes são aqueles não não tem seu valor alterado, permanecendo com o mesmo valor durante toda a execução do algoritmo. Os dados variáveis são aqueles que podem ter seu valor alterado. 
+
 <!-- 
 ## O que é preciso para construir um programa de computador?
 
